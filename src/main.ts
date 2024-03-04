@@ -1,11 +1,11 @@
 import "./style.css";
 
-interface grupo {
+/*interface grupo {
     nombre: string;
     añoFundacion: number;
     activo: boolean;
     generoMusical: string;
-}
+}*/
 
 const grupo1 = {
     nombre: "The Beatles",
@@ -26,6 +26,6 @@ console.log(grupo2);
 
 //Separador
 
-const estiloTitulo = "color: red; font-size: 18px"
+//const estiloTitulo = "color: red; font-size: 18px"
 
-console.log("")
+console.log("grupo1")
