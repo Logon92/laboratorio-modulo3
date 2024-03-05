@@ -42,22 +42,29 @@ const grupo5: Grupo = {
     generoMusical: "🎸 Rock",
 };
 
+const estiloNombreGrupo = "font-weight: bold; font-size:20px; color: green";
+
+/*console.log(`%c ${grupo1.nombre}, ${grupo1.añoFundacion}, ${grupo1.activo}, ${grupo1.generoMusical}`, estiloNombreGrupo);
+console.log(`%c ${grupo1.nombre}`, estiloNombreGrupo);
+
 console.log(grupo1);
 console.log(grupo2);
 console.log(grupo3);
 console.log(grupo4);
-console.log(grupo5);
+console.log(grupo5);*/
 
-//En TypeScript no sé cómo dar estilo al haber heho objetos. Voy a hacerlo de otra forma para darle estilo.
+//En TypeScript no sé cómo dar estilo al haber hecho objetos. Voy a hacerlo de otra forma para darle estilo.
 
-const estiloNombreGrupo = "font-weight: bold; font-size:20px; color: green";
+//console.log(`%c ${grupoMusical1.nombre}`, styles);
 
-const pop = "🎵 Pop Rock";
+//const estiloNombreGrupo = "font-weight: bold; font-size:20px; color: green";
+
+/*const pop = "🎵 Pop Rock";
 const rock = "🎸 Rock";
 const hard = "🤘 Hard Rock";
-const clasica = "🎼 Clásica";
+const clasica = "🎼 Clásica";*/
 
-console.log(`%cThe Rolling Stones`, estiloNombreGrupo, `1960 / true /${pop}`)
+//console.log(`%cThe Rolling Stones`, estiloNombreGrupo, `1960 / true /${pop}`)
 
 /*
 The Beatles / 1960 / Activo: true / 🎵 Pop Rock
@@ -66,3 +73,38 @@ AC DC / 1973 / Activo: true / 🤘 Hard Rock
 Ludwig van Beethoven / 1770 / Activo: false / 🎼 Clásica
 The Rolling Stones / 1962 / Activo: true / 🎸 Rock
 */
+
+//The Beatles
+console.log(`%c ${grupo1.nombre}`, estiloNombreGrupo);
+console.log(grupo1.añoFundacion);
+console.log(grupo1.activo);
+console.log(grupo1.generoMusical);
+console.log("****************");
+
+//Queen
+console.log(`%c ${grupo2.nombre}`, estiloNombreGrupo);
+console.log(grupo2.añoFundacion);
+console.log(grupo2.activo);
+console.log(grupo2.generoMusical);
+console.log("****************");
+
+//AC DC
+console.log(`%c ${grupo3.nombre}`, estiloNombreGrupo);
+console.log(grupo3.añoFundacion);
+console.log(grupo3.activo);
+console.log(grupo3.generoMusical);
+console.log("****************");
+
+//Beethoven
+console.log(`%c ${grupo4.nombre}`, estiloNombreGrupo);
+console.log(grupo4.añoFundacion);
+console.log(grupo4.activo);
+console.log(grupo4.generoMusical);
+console.log("****************");
+
+//The Rolling Stones
+console.log(`%c ${grupo5.nombre}`, estiloNombreGrupo);
+console.log(grupo5.añoFundacion);
+console.log(grupo5.activo);
+console.log(grupo5.generoMusical);
+console.log("****************");
